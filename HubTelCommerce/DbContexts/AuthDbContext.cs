@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace HubTelCommerce.DbContexts
 {
-    public class CustomerDbContext:IdentityDbContext<Customer>
+    public class AuthDbContext:IdentityDbContext<Customer>
     {
-        public CustomerDbContext(DbContextOptions<CustomerDbContext> db):base(db)
+        public AuthDbContext(DbContextOptions<AuthDbContext> db):base(db)
         {
             
         }
