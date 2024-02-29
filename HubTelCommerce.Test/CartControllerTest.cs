@@ -53,8 +53,6 @@ namespace HubTelCommerce.Test
                 Quantity=10
               }
             };
-
-            
             
         }
         [TearDown]
